@@ -15,16 +15,14 @@ class DeleteAllUseCaseTest{
 
     @Before
     fun setUp() {
-        repository = mock() // Mock the repository
+        repository = mock()
         deleteAllUseCase = DeleteAllUseCase(repository)
     }
 
     @Test
     fun `invoke should call deleteAll on repository`() = runBlocking {
-        // Call the use case
         deleteAllUseCase.invoke()
 
-        // Verify that the deleteAll method was called
         verify(repository).deleteAll()
     }
 }

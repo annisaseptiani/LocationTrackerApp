@@ -1,8 +1,5 @@
 package com.example.core.di
 
-import android.app.Application
-import android.content.Context
-import android.location.Geocoder
 import com.example.domain.repository.HistoryLocationRepository
 import com.example.domain.usecase.DeleteAllUseCase
 import com.example.domain.usecase.GetLocationUseCase
@@ -13,7 +10,6 @@ import com.example.history.data.repository.HistoryLocationRepositoryImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
-import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
