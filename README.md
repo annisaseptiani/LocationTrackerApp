@@ -65,7 +65,10 @@ Aplikasi **Lagi Dimana** memenuhi beberapa kriteria wajib berikut:
    ![Arsitektur MVVM](./pictures/clean_architecture.png)
    ![Android Jetpack](./pictures/viewmodel.png)
 
-7. Menggunakan **Git** untuk versi kontrol dan kolaborasi kode.
+7. **Unit Testing**
+   ![Arsitektur MVVM](./pictures/unit_test.png)
+
+8. Menggunakan **Git** untuk versi kontrol dan kolaborasi kode.
 
 ## Kriteria Tambahan
 Beberapa kriteria tambahan yang juga tercover dalam aplikasi ini:
