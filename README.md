@@ -48,24 +48,24 @@ Setelah instalasi selesai, Anda bisa menjalankan aplikasi di emulator atau peran
 Aplikasi **Lagi Dimana** memenuhi beberapa kriteria wajib berikut:
 
 1. **Pengambilan dan penyimpanan lokasi**, lokasi disimpan menggunakan **Room** database untuk keperluan penyimpanan histori.
-   ![Pengambilan dan penyimpanan lokasi](./pictures/front_page.png)
+   <img src="./pictures/front_page.png" alt="Deskripsi" width="300" height="200">
 
-2. Menggunakan **Android Jetpack**, termasuk ViewModel, LiveData, dan Room untuk pengelolaan data dan UI.
+3. Menggunakan **Android Jetpack**, termasuk ViewModel, LiveData, dan Room untuk pengelolaan data dan UI.
    ![Android Jetpack](./pictures/viewmodel.png)
    ![Android Jetpack](./pictures/room.png)
    ![Android Jetpack](./pictures/flow.png)
 
-3. **Menampilkan data histori** lokal dalam bentuk **list** dan **peta** dengan titik pin point untuk lokasi-lokasi yang sudah tersimpan.
+4. **Menampilkan data histori** lokal dalam bentuk **list** dan **peta** dengan titik pin point untuk lokasi-lokasi yang sudah tersimpan.
    ![Menampilkan data histori](./pictures/location_history.png)
 
-4. **Pengambilan lokasi secara berkelanjutan** bahkan saat aplikasi berada dalam mode sleep, ditutup, atau saat perangkat offline.
+5. **Pengambilan lokasi secara berkelanjutan** bahkan saat aplikasi berada dalam mode sleep, ditutup, atau saat perangkat offline.
    ![Pengambilan lokasi berkelanjutan](./pictures/location_offline.png)
 
-5. Mengadopsi **arsitektur MVVM**, **Clean Architecture**, dan menjaga **clean code** untuk pemisahan tanggung jawab yang jelas antara data, domain, dan presentasi.
+6. Mengadopsi **arsitektur MVVM**, **Clean Architecture**, dan menjaga **clean code** untuk pemisahan tanggung jawab yang jelas antara data, domain, dan presentasi.
    ![Arsitektur MVVM](./pictures/clean_architecture.png)
    ![Android Jetpack](./pictures/viewmodel.png)
 
-6. Menggunakan **Git** untuk versi kontrol dan kolaborasi kode.
+7. Menggunakan **Git** untuk versi kontrol dan kolaborasi kode.
 
 ## Kriteria Tambahan
 Beberapa kriteria tambahan yang juga tercover dalam aplikasi ini:
