@@ -43,3 +43,55 @@ Setelah instalasi selesai, Anda bisa menjalankan aplikasi di emulator atau peran
 
 1. Hubungkan perangkat atau jalankan emulator.
 2. Klik tombol **Run** di Android Studio atau gunakan pintasan **Shift + F10**.
+
+## Kriteria Wajib yang Tercover
+Aplikasi **Lagi Dimana** memenuhi beberapa kriteria wajib berikut:
+
+1. **Pengambilan dan penyimpanan lokasi**, lokasi disimpan menggunakan **Room** database untuk keperluan penyimpanan histori.
+   ![Pengambilan dan penyimpanan lokasi](./pictures/front_page.png)
+
+2. Menggunakan **Android Jetpack**, termasuk ViewModel, LiveData, dan Room untuk pengelolaan data dan UI.
+   ![Android Jetpack](./pictures/viewmodel.png)
+   ![Android Jetpack](./pictures/room.png)
+   ![Android Jetpack](./pictures/flow.png)
+
+3. **Menampilkan data histori** lokal dalam bentuk **list** dan **peta** dengan titik pin point untuk lokasi-lokasi yang sudah tersimpan.
+   ![Menampilkan data histori](./pictures/location_history.png)
+
+4. **Pengambilan lokasi secara berkelanjutan** bahkan saat aplikasi berada dalam mode sleep, ditutup, atau saat perangkat offline.
+   ![Pengambilan lokasi berkelanjutan](./pictures/location_offline.png)
+
+5. Mengadopsi **arsitektur MVVM**, **Clean Architecture**, dan menjaga **clean code** untuk pemisahan tanggung jawab yang jelas antara data, domain, dan presentasi.
+   ![Arsitektur MVVM](./pictures/clean_architecture.png)
+   ![Android Jetpack](./pictures/viewmodel.png)
+
+6. Menggunakan **Git** untuk versi kontrol dan kolaborasi kode.
+
+## Kriteria Tambahan
+Beberapa kriteria tambahan yang juga tercover dalam aplikasi ini:
+
+1. Penanda **status koneksi** untuk menunjukkan apakah perangkat sedang online atau offline.
+   ![Status Koneksi](./pictures/location_offline.png)
+
+2. **Tampilan responsif** yang menyesuaikan dengan berbagai ukuran layar perangkat.
+   ![Tampilan Responsif](./pictures/smaller_screen.png)
+   ![Tampilan Responsif](./pictures/front_page.png)
+
+3. Menghapus komentar, indentasi yang rapi dan menghapus import yang tidak digunakan
+
+4. Menggunakan **Jetpack Compose** untuk pengelolaan UI yang lebih modern dan deklaratif.
+   ![Jetpack Compose](./pictures/jetpack_compose.png)
+
+5. Aplikasi ini diimplementasikan dengan **multi module**, memisahkan berbagai fitur dan data untuk modularitas dan pengelolaan kode yang lebih baik.
+   ![Multi Module](./pictures/multi_module.png)
+
+## Dibangun Dengan
+- **Android Studio** - IDE resmi untuk pengembangan Android.
+- **Kotlin** - Bahasa pemrograman yang digunakan.
+- **Gradle** - Sistem build otomatis untuk proyek Android.
+- **Peta & Lokasi** - Fitur utama untuk menampilkan lokasi terkini dan histori.
+- **Room Database** - Untuk penyimpanan data lokal.
+- **Jetpack Compose** - Untuk pengelolaan UI.
+- **Google Maps API** - Untuk menampilkan lokasi di maps
+- **MVVM** - Sebagai arsitektur pattern
+- **Multi-Module Architecture** - Untuk pemisahan fitur dan manajemen proyek yang lebih baik.
