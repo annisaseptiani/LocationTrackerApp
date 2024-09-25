@@ -48,7 +48,7 @@ Setelah instalasi selesai, Anda bisa menjalankan aplikasi di emulator atau peran
 Aplikasi **Lagi Dimana** memenuhi beberapa kriteria wajib berikut:
 
 1. **Pengambilan dan penyimpanan lokasi**, lokasi disimpan menggunakan **Room** database untuk keperluan penyimpanan histori.
-   <img src="./pictures/front_page.png" alt="Deskripsi" width="300" height="200">
+   ![Android Jetpack]<img src="./pictures/front_page.png" alt="Deskripsi" width="300" height="300">
 
 3. Menggunakan **Android Jetpack**, termasuk ViewModel, LiveData, dan Room untuk pengelolaan data dan UI.
    ![Android Jetpack](./pictures/viewmodel.png)
